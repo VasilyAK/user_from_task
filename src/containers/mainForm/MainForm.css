@@ -1,0 +1,40 @@
+.main-form {
+	background: rgba(105, 105, 105, 0.3);
+	border: 4px solid rgba(0, 0, 0, 0.71);
+	border-radius: 15px;
+}
+
+.main-form__head {
+	background: white;
+	border-top: 1px solid rgba(55, 55, 55, 0.5);
+	border-bottom: 1px solid rgba(55, 55, 55, 0.6);
+	border-radius: 5px 5px 0 0;
+	box-shadow: inset 0 0 0 2px rgba(55, 55, 55, 0.8);
+}
+
+.main-form__head-text {
+	font-size: 1.3rem;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+.main-form-body__user-data, .main-form-body__user-new-data {
+	background: white;
+	border: 1px solid rgba(55, 55, 55, 0.8);
+	border-radius: 8px;
+	box-shadow: inset 0 0 0 2px rgba(55, 55, 55, 0.4);
+}
+
+.main-form-body__controls {
+	align-self: center;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+@media (max-width: 62em){
+	.main-form-body__controls {
+		flex-flow: row;
+		justify-content: space-around;
+	}
+}
